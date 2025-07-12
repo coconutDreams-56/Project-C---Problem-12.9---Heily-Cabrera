@@ -99,7 +99,7 @@ int main()
 
     sort(filenames.begin(), filenames.end(), natural_compare);
 
-    cout << "Sorted filenames (natural order):" << endl;
+    cout << "Sorted filenames:" << endl;
     for (const string& name : filenames) 
     {
         cout << name << endl;
